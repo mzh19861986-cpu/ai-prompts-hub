@@ -3,72 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Prompt Hub - 1000+ 精选提示词大全</title>
-    <meta name="description" content="精选1000+高质量AI提示词，覆盖写作、编程、绘画、营销等场景，让AI帮你事半功倍">
+    <title>AI Prompts Hub</title>
+    <meta name="description" content="精选高质量 AI 提示词，让 ChatGPT/Claude 更好用">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #1a1a1a; background: #fff; line-height: 1.6; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #111827; background: #fff; line-height: 1.6; }
         .container { max-width: 1200px; margin: 0 auto; padding: 0 2rem; }
-        nav { padding: 1.5rem 0; border-bottom: 1px solid #eee; margin-bottom: 4rem; }
+        nav { padding: 1.5rem 0; border-bottom: 1px solid #e5e7eb; margin-bottom: 3rem; }
         nav .container { display: flex; justify-content: space-between; align-items: center; }
-        .logo { font-size: 1.25rem; font-weight: 700; color: #1a1a1a; text-decoration: none; }
-        .hero { text-align: center; padding: 6rem 0; }
-        .hero h1 { font-size: 3rem; font-weight: 700; margin-bottom: 1.5rem; letter-spacing: -0.02em; }
-        .hero p { font-size: 1.25rem; color: #666; max-width: 600px; margin: 0 auto 3rem; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin: 4rem 0; }
-        .card { padding: 2rem; border: 1px solid #eee; border-radius: 12px; transition: all 0.2s; }
-        .card:hover { border-color: #1a1a1a; transform: translateY(-2px); }
-        .card h3 { font-size: 1.25rem; margin-bottom: 1rem; }
-        .card p { color: #666; }
-        footer { padding: 3rem 0; border-top: 1px solid #eee; text-align: center; color: #999; margin-top: 6rem; }
-        @media (max-width: 768px) { .hero h1 { font-size: 2rem; } }
+        .logo { font-size: 1.25rem; font-weight: 700; color: #111827; text-decoration: none; }
+        .nav-links a { margin-left: 1.5rem; color: #6b7280; text-decoration: none; font-size: 0.95rem; }
+        .nav-links a:hover { color: #111827; }
+        .hero { text-align: center; padding: 4rem 0 2rem; }
+        .hero h1 { font-size: 2.5rem; margin-bottom: 1rem; font-weight: 800; letter-spacing: -0.02em; }
+        .hero p { color: #6b7280; max-width: 600px; margin: 0 auto; font-size: 1.125rem; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.5rem; margin: 3rem 0; }
+        .card { padding: 1.75rem; border: 1px solid #e5e7eb; border-radius: 12px; transition: all 0.2s; }
+        .card:hover { border-color: #111827; transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+        .card h3 { font-size: 1.2rem; margin-bottom: 0.75rem; font-weight: 600; }
+        .card .tag { display: inline-block; padding: 0.2rem 0.6rem; background: #f3f4f6; border-radius: 12px; font-size: 0.8rem; margin-right: 0.5rem; margin-bottom: 0.5rem; color: #4b5563; }
+        .card p { color: #6b7280; font-size: 0.95rem; margin-bottom: 1rem; }
+        footer { padding: 3rem 0; border-top: 1px solid #e5e7eb; text-align: center; color: #9ca3af; margin-top: 4rem; }
     </style>
 </head>
 <body>
     <nav>
         <div class="container">
-            <a href="/" class="logo">⚡ AI Prompt Hub</a>
-            <div>
-                <a href="/prompts" style="margin-right: 1.5rem; color: #666; text-decoration: none;">提示词库</a>
-                <a href="/about" style="color: #666; text-decoration: none;">关于</a>
+            <a href="/" class="logo">✨ AI Prompts Hub</a>
+            <div class="nav-links">
+                <a href="/">Home</a>
+                <a href="/about.html">关于</a>
             </div>
         </div>
     </nav>
     <div class="container">
         <div class="hero">
-            <h1>1000+ 精选 AI 提示词</h1>
-            <p>覆盖写作、编程、绘画、营销、学习等场景，让AI真正帮你干活，而不是陪你聊天</p>
+            <h1>✨ AI Prompts Hub</h1>
+            <p>精选高质量 AI 提示词，让 ChatGPT/Claude 更好用</p>
         </div>
         <div class="grid">
             <div class="card">
-                <h3>✍️ 写作提示词</h3>
-                <p>文章、文案、邮件、周报... 让AI写出高质量内容</p>
+                <h3>写作类提示词</h3>
+                <div>
+                    <span class="tag">写作</span>
+                    <span class="tag">通用</span>
+                </div>
+                <p>写文案、写文章、写邮件，一键复制直接用</p>
             </div>
             <div class="card">
-                <h3>💻 编程提示词</h3>
-                <p>代码生成、调试、解释、重构... 开发者效率翻倍</p>
+                <h3>编程类提示词</h3>
+                <div>
+                    <span class="tag">编程</span>
+                    <span class="tag">开发</span>
+                </div>
+                <p>写代码、debug、code review，程序员效率翻倍</p>
             </div>
             <div class="card">
-                <h3>🎨 绘画提示词</h3>
-                <p>Midjourney、DALL-E 提示词大全，生成专业级图片</p>
+                <h3>绘画类提示词</h3>
+                <div>
+                    <span class="tag">绘画</span>
+                    <span class="tag">设计</span>
+                </div>
+                <p>Midjourney/SD 提示词模板，出图效果更好</p>
             </div>
             <div class="card">
-                <h3>📈 营销提示词</h3>
-                <p>标题、文案、广告、社交媒体... 转化率提升</p>
+                <h3>营销类提示词</h3>
+                <div>
+                    <span class="tag">营销</span>
+                    <span class="tag">变现</span>
+                </div>
+                <p>写标题、写广告、写朋友圈，转化率更高</p>
             </div>
             <div class="card">
-                <h3>📚 学习提示词</h3>
-                <p>快速掌握新知识，AI当你的私人老师</p>
+                <h3>学习类提示词</h3>
+                <div>
+                    <span class="tag">学习</span>
+                    <span class="tag">教育</span>
+                </div>
+                <p>学习新知识、做总结、做笔记，效率提升</p>
             </div>
             <div class="card">
-                <h3>💼 职场提示词</h3>
-                <p>PPT、汇报、会议纪要、方案... 工作效率提升10倍</p>
+                <h3>生活类提示词</h3>
+                <div>
+                    <span class="tag">生活</span>
+                    <span class="tag">实用</span>
+                </div>
+                <p>做计划、写简历、搞旅行攻略，生活助手</p>
             </div>
+
         </div>
     </div>
     <footer>
         <div class="container">
-            <p>© 2026 AI Prompt Hub - 由 AI 智能集群自动维护更新</p>
+            <p>© 2026 AI Prompts Hub - 精选 AI 工具与资源</p>
         </div>
     </footer>
 </body>
